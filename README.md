@@ -9,12 +9,14 @@ What do I need to know about Alexa's software to be able to design this function
 What do I need to know about WeMo light bulbs to be able to design this functionality? 
  
 ##Introducing the Alexa Skills Kit
-You can design new 'skills' for Alexa using Amazon's Alexa Skills Kit. It supports the building of many different types of functions. For my purpose I want to use the Smart Home Skill API. The API enables new skills to be created for cloud-connected devices with the appropriate authentication system. In this way, the API defines the requests the skill can handle and what users say to prompt these requests.
+You can design new 'skills' for Alexa using Amazon's [Alexa Skills Kit](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/getting-started-guide). It supports the building of many different types of functions. For my purpose I want to use the [Smart Home Skill API](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/overviews/understanding-the-smart-home-skill-api). The API enables new skills to be created for cloud-connected devices with the appropriate authentication system. In this way, the API defines the requests the skill can handle and what users say to prompt these requests.
  
 ##What's this about a  service, adapters and directives?
 There are a lot of buzzwords that get introduced in the Alexa Skills kit documentation. To simplify, the idea is to create a cloud-based 'service' that handles the requests for the skill type and hosts it in the cloud. This also differs based on which skill kit you want to work with. For my case, using the Smart Home Skill API, you develop what's called a skill 'adapter'  that accepts commands from Alexa and directs the connected smart device.
  
 This is broken down in the image below
+
+![alt text](Alexa.png "Smart Home Skill API")
  
 1. Someone says the command to Alexa.
 2. Alexa hears the instruction and sends to the service for interpretation.
