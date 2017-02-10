@@ -2,7 +2,7 @@
  
 It's the name on everyone's lips. Amazons new home assistant is the new Siri. She tells you the weather, shops, books an Uber or streams your music. A world of possibilities. I didn't know what Alexa was 12 months ago now I almost can't imagine my life without it. Not to mention my gadget obsessed Husband has stocked our small one bedroom apartment with 3 of them. Alexa represents a new type of hardware to develop for. Alexa is also popular with developers because the software behind it is open.  As a new coder, I haven't built anything outside of my laptop I am excited by the new challenge developing for Alexa will pose. I have been learning Python, which is one of the languages supported by Alexa and I would like to put these skills to use. One of my personal projects is to write code for Alexa, specifically to integrate with my light globes.  To go about doing this I first need to define the problem and the aspects of this problem that I don’t know the answers to.
  
-*The problem:*
+**The problem:**
 I have WeMo light globes that don't have native support with Alexa. Can I learn the new framework and design commands to be able to turn my lights on and off with Alexa?
  
 What do I need to know about Alexa's software to be able to design this functionality?
